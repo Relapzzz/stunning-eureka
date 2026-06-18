@@ -21,8 +21,6 @@ apexplanet-data-analytics/
 ---
 
 ## ✅ Task 1 – Foundational Setup & Exploratory Data Analysis (EDA)
-**Timeline:** 6 Days
-
 ### 🛠️ Libraries Used
 - **pandas** - Data manipulation
 - **numpy** - Numerical operations
@@ -53,7 +51,6 @@ jupyter notebook notebooks/task1_eda.ipynb
 ---
 
 ## ✅ Task 2 – SQL for Data Extraction
-**Timeline:** 7 Days
 
 ### 🛠️ Tools Used
 - **SQLite** - Lightweight database (built into Python, no install needed)
