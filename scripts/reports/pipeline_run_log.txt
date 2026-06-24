@@ -1,0 +1,18 @@
+[2026-06-24 13:55:17] ============================================================
+[2026-06-24 13:55:17]   SUPERSTORE ANALYTICS PIPELINE STARTED
+[2026-06-24 13:55:17] ============================================================
+[2026-06-24 13:55:17] STEP 1 – Loading data from data/superstore.csv
+[2026-06-24 13:56:16] ============================================================
+[2026-06-24 13:56:16]   SUPERSTORE ANALYTICS PIPELINE STARTED
+[2026-06-24 13:56:16] ============================================================
+[2026-06-24 13:56:16] STEP 1 – Loading data from data/superstore.csv
+[2026-06-24 14:08:10] ============================================================
+[2026-06-24 14:08:10]   SUPERSTORE ANALYTICS PIPELINE STARTED
+[2026-06-24 14:08:10] ============================================================
+[2026-06-24 14:08:10] STEP 1 – Loading data from ../data/superstore.csv
+[2026-06-24 14:13:04] Loading ../data/superstore.csv
+[2026-06-24 14:13:04] ERROR: 'utf-8' codec can't decode byte 0xa0 in position 2944: invalid start byte
+[2026-06-24 14:16:41] Loading ../data/superstore.csv
+[2026-06-24 14:16:41] ERROR: 'utf-8' codec can't decode byte 0xa0 in position 2944: invalid start byte
+[2026-06-24 14:17:25] Loading data/superstore.csv
+[2026-06-24 14:17:25] ERROR: 'utf-8' codec can't decode byte 0xa0 in position 2944: invalid start byte
