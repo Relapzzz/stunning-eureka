@@ -1,103 +1,146 @@
-# ApexPlanet Data Analytics Internship - 30 Days
+# 📊 Task 5 – Final Report, Automation & Presentation
 
-## 🎯 Internship Overview
-This repository contains all tasks completed during the **ApexPlanet 30-Day Data Analytics Internship**.  
-**Dataset:** Superstore Sales
+This repository contains the final phase of the **ApexPlanet Data Analytics Internship**, where all previous tasks were consolidated into a complete business analytics project. The project includes a professional report, dashboard visualizations, business insights, and project documentation based on the **Superstore Sales Dataset**.
 
 ---
 
-## 📁 Repository Structure
+## 📌 Project Overview
+
+The objective of this project is to perform an end-to-end data analytics workflow, starting from raw data preparation and ending with interactive dashboards and actionable business recommendations.
+
+The project covers:
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- SQL-Based Business Analysis
+- Interactive Dashboard Development
+- Statistical Analysis
+- Customer Segmentation
+- Predictive Modeling
+- Final Project Report
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- SQLite
+- SQLAlchemy
+- Matplotlib
+- Seaborn
+- Plotly
+- Scikit-learn
+- Git & GitHub
+
+---
+
+## 📂 Repository Structure
+
 ```
-apexplanet-data-analytics/
-├── data/                   # Raw and cleaned datasets + SQLite database
-├── notebooks/              # Jupyter notebooks for each task
-├── sql/                    # SQL query files
-├── scripts/                # Python scripts
-├── reports/                # Exported results and visualizations
-├── dashboards/             # Dashboard files
+.
+├── report/
+│   ├── Superstore_Project_Report.pdf
+│   ├── Superstore_Project_Report.docx
+│
+├── dashboards/
+│   ├── dashboard_1.png
+│   ├── dashboard_2.png
+│   ├── interactive_dashboard.html
+│
+├── visualizations/
+│   ├── sales_trend.png
+│   ├── correlation_heatmap.png
+│   ├── category_analysis.png
+│   ├── customer_segmentation.png
+│   ├── feature_importance.png
+│   └── ...
+│
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## ✅ Task 1 – Foundational Setup & Exploratory Data Analysis (EDA)
-**Timeline:** 6 Days
+## 📈 Project Workflow
 
-### 🛠️ Libraries Used
-- **pandas** - Data manipulation
-- **numpy** - Numerical operations
-- **matplotlib** - Static visualizations
-- **seaborn** - Statistical plots
-- **plotly** - Interactive charts
-- **sqlalchemy** - Database operations
+### 1. Data Preparation
+- Imported Superstore Sales Dataset
+- Handled missing values
+- Removed duplicate records
+- Corrected data types
+- Detected and treated outliers
 
-### 📂 Files
-| File | Description |
-|------|-------------|
-| `notebooks/task1_eda.ipynb` | Main EDA notebook with cleaning + visualizations |
-| `data/superstore_cleaned.csv` | Cleaned dataset after preprocessing |
+### 2. Exploratory Data Analysis
+- Statistical summaries
+- Correlation analysis
+- Sales trends
+- Category and segment analysis
+- Regional performance
 
-### 💡 Key Insights
-1. Technology is the top-selling category
-2. West region leads in sales
-3. Strong correlation between Sales and Profit
-4. Consumer segment is most valuable
-5. Sales show seasonal trends
+### 3. SQL Analysis
+- Business queries
+- Customer analysis
+- Product analysis
+- Monthly sales analysis
+- Ranking and aggregation queries
 
-### 🚀 How to Run
-```bash
-pip install pandas numpy matplotlib seaborn plotly sqlalchemy jupyter
-jupyter notebook notebooks/task1_eda.ipynb
-```
+### 4. Dashboard Development
+Interactive dashboards were created to monitor:
 
----
+- Total Sales
+- Total Profit
+- Total Orders
+- Customer Count
+- Sales by Category
+- Sales by Segment
+- Sales by Region
+- Sales Trends Over Time
 
-## ✅ Task 2 – SQL for Data Extraction
-**Timeline:** 7 Days
-
-### 🛠️ Tools Used
-- **SQLite** - Lightweight database (built into Python, no install needed)
-- **sqlalchemy** - Python to SQLite connection
-- **pandas** - Execute SQL queries via `read_sql()`
-- **openpyxl** - Export results to Excel
-- **SQLite Online** - Used for Day 7-8 basic query practice
-
-### 📂 Files
-| File | Description |
-|------|-------------|
-| `sql/task2_sql_queries.sql` | All SQL queries (Fundamentals + Advanced + 10 Business Questions) |
-| `notebooks/task2_python_sql.ipynb` | Python + SQLite integration notebook |
-| `data/superstore.db` | SQLite database generated from cleaned dataset |
-| `reports/task2_sql_results.xlsx` | Exported results for all 10 business questions |
-
-### 📝 SQL Topics Covered
-- **Day 7-8:** SELECT, WHERE, ORDER BY, GROUP BY, HAVING, JOINs
-- **Day 9-10:** CTEs (WITH clause), Window Functions (RANK, LAG, ROW_NUMBER), Views
-- **Day 11-13:** Python + SQLite integration, 10 business questions answered via SQL
-
-### ❓ 10 Business Questions Answered
-1. Top 5 products by total sales
-2. Monthly revenue trend
-3. Customer segmentation by spend (High / Mid / Low Value)
-4. Most profitable shipping mode
-5. Top 5 loss-making sub-categories
-6. Top 10 states by revenue
-7. Impact of discount bands on profit
-8. Average order value by customer segment
-9. Year-over-year sales comparison
-10. Top 10 most valuable customers by lifetime profit
-
-### 🚀 How to Run
-```bash
-pip install sqlalchemy pandas openpyxl
-jupyter notebook notebooks/task2_python_sql.ipynb
-```
+### 5. Advanced Analytics
+- Customer Segmentation (K-Means)
+- PCA Visualization
+- Feature Importance
+- Statistical Analysis
+- Predictive Modeling
 
 ---
 
-## 🔄 Upcoming Tasks
-- **Task 3** – Data Visualization & Dashboarding *(Days 14-20)*
-- **Task 4** – Advanced Analytics & Statistical Modeling *(Days 21-26)*
-- **Task 5** – Final Report, Automation & Presentation *(Days 27-30)*
+## 📊 Key Insights
+
+- Total Sales reached approximately **459.98K**.
+- Total Profit exceeded **78.93K**.
+- Consumer customers generated the highest revenue.
+- Sales showed consistent growth over time.
+- Office Supplies was one of the strongest performing categories.
+- Regional analysis identified areas with high sales potential.
+
+---
+
+## 💡 Business Recommendations
+
+- Focus marketing campaigns on high-value customer segments.
+- Increase inventory for high-performing product categories.
+- Improve sales strategies in underperforming regions.
+- Use predictive analytics for better demand forecasting.
+- Continue monitoring KPIs using interactive dashboards.
+
+---
+
+## 📄 Final Deliverables
+
+- Professional Project Report (PDF & DOCX)
+- Interactive Dashboard
+- Data Visualizations
+- Business Insights
+- Recommendations
+- Complete Documentation
+
+---
+
+## 📷 Dashboard Preview
+
+> Dashboard screenshots and visualizations are available in the `dashboards/` folder.
 
 ---
